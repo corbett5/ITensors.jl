@@ -11,6 +11,7 @@ If practical and applicable, please include a minimal demonstration of the previ
 ```julia
 [YOUR MINIMAL DEMONSTRATION OF PREVIOUS BEHAVIOR]
 ```
+
 </p></details>
 
 <details><summary>Minimal demonstration of new behavior</summary><p>
@@ -18,6 +19,7 @@ If practical and applicable, please include a minimal demonstration of the previ
 ```julia
 [YOUR MINIMAL DEMONSTRATION OF NEW BEHAVIOR]
 ```
+
 </p></details>
 
 # How Has This Been Tested?
@@ -31,7 +33,7 @@ Please give a summary of the tests that you added to verify your changes.
 
 # Checklist:
 
-- [ ] My code follows the style guidelines of this project. Please run `using JuliaFormatter; format(".")` in the base directory of the repository (`~/.julia/dev/ITensors`) to format your code according to our style guidelines.
+- [ ] My code follows the style guidelines of this project. Please run the [ITensorFormatter](https://github.com/ITensor/ITensorFormatter.jl) in the base directory of the repository (`~/.julia/dev/ITensors`) to format your code according to our style guidelines.
 - [ ] I have performed a self-review of my own code.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
 - [ ] I have added tests that verify the behavior of the changes I made.

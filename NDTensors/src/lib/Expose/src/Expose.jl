@@ -1,9 +1,10 @@
 module Expose
-using SimpleTraits
-using LinearAlgebra
-using Base: ReshapedArray
-using StridedViews
+
 using Adapt: Adapt, adapt, adapt_structure
+using Base: ReshapedArray
+using LinearAlgebra
+using SimpleTraits
+using StridedViews
 
 include("exposed.jl")
 

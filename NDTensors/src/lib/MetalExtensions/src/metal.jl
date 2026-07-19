@@ -1,5 +1,5 @@
-using TypeParameterAccessors: TypeParameterAccessors, Position
 using ..GPUArraysCoreExtensions: storagemode
+using TypeParameterAccessors: TypeParameterAccessors, Position
 # Implemented in NDTensorsMetalExt
 function mtl end
 
@@ -11,5 +11,5 @@ function mtl end
 struct MtlArrayAdaptor{B} end
 
 function TypeParameterAccessors.position(::Type{<:MtlArrayAdaptor}, ::typeof(storagemode))
-  return Position(1)
+    return Position(1)
 end
